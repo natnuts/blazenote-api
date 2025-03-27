@@ -3,10 +3,13 @@ main = "src/index.ts"
 compatibility_date = "2024-12-30"
 compatibility_flags = [ "nodejs_compat" ]
 
+workers_dev = true
+route = "blazenote-api.scholarly-magician.sxplab.com/*"
+
 [[d1_databases]]
 binding = "DB"
 database_name = "blazenote"
-database_id = ""
+database_id = "7646f27b-4edf-4c37-8c13-f26eef72facd"
 migrations_dir = "./migrations"
 
 [vars]
