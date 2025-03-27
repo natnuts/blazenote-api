@@ -12,7 +12,7 @@ const app = new Hono();
 // Define allowed origins
 const allowedOrigins = new Set([
   "http://localhost:5173",
-  "https://blazenote-api.scholarly-magician.sxplab.com/",
+  "https://blazenote.scholarly-magician.sxplab.com/",
 ]);
 
 // https://hono.dev/docs/middleware/builtin/cors
