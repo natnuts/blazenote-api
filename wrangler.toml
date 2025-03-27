@@ -3,18 +3,31 @@ main = "src/index.ts"
 compatibility_date = "2024-12-30"
 compatibility_flags = [ "nodejs_compat" ]
 
-# TODO: In-Workshop Activities. Uncomment the code below:
- 
-[d1_databases]]
+[[d1_databases]]
 binding = "DB"
 database_name = "blazenote"
 database_id = "69a97e0d-44a7-4f59-8dc8-19e28d3f7b07"
 migrations_dir = "./migrations"
 
-# [[r2_buckets]]
-# binding = "R2_BUCKET"
-# bucket_name = "blazenote"
-# preview_bucket_name = "dev-blazenote"
+[vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "blazenote"
+preview_bucket_name = "dev-blazenote"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
 
 # wrangler.toml (wrangler v3.88.0^)
 [observability.logs]
