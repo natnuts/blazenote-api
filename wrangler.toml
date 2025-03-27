@@ -16,10 +16,10 @@ migrations_dir = "./migrations"
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-[[r2_buckets]]
-binding = "R2_BUCKET"
-bucket_name = "blazenote"
-preview_bucket_name = "dev-blazenote"
+# [[r2_buckets]]
+# binding = "R2_BUCKET"
+# bucket_name = "blazenote"
+# preview_bucket_name = "dev-blazenote"
 
 # [[d1_databases]]
 # binding = "DB"
