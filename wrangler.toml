@@ -16,7 +16,7 @@ database_name = "blazenote"
 database_id = "7646f27b-4edf-4c37-8c13-f26eef72facd"
 migrations_dir = "./migrations"
 
-[vars]
+# [vars]
 # MY_VAR = "my-variable"
 
 # [[kv_namespaces]]
